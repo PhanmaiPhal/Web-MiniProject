@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,87 +13,89 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-            <nav class=" border-gray-200 dark:bg-gray-900">
-                <div class=" flex flex-wrap items-center justify-between mx-6 p-4">
-                    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="/images/image.png" class="h-14 w-full" alt=" Logo" />
-                        <span
-                            class="self-center text-2xl font-semibold whitespace-nowrap text-[#997063] dark:text-white">BugerKing</span>
-                    </a>
-                    <div class="flex md:order-2">
-                        <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search"
-                            aria-expanded="false"
-                            class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
-                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 20 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+        <nav class=" border-gray-200 dark:bg-gray-900">
+            <div class=" flex flex-wrap items-center justify-between mx-6 p-4">
+                <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="/images/image.png" class="h-14 w-full" alt=" Logo" />
+                    <span
+                        class="self-center text-2xl font-semibold whitespace-nowrap text-[#997063] hidden md:block dark:text-white">BugerKing</span>
+                </a>
+                <div class="flex md:order-2">
+                    <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search"
+                        aria-expanded="false"
+                        class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg>
+                        <span class="sr-only">Search</span>
+                    </button>
+                    <div class="relative hidden md:block">
+                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                             </svg>
-                            <span class="sr-only">Search</span>
-                        </button>
-                        <div class="relative hidden md:block">
-                            <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                                </svg>
-                                <span class="sr-only">Search icon</span>
-                            </div>
-                            <input type="text" id="search-navbar"
-                                class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Search...">
-    
+                            <span class="sr-only">Search icon</span>
                         </div>
-                        <div class="flex justify-center items-center pl-5"><img src="../images/heart.png" class="w-6 h-6 "
-                                alt=""><img src="../images/map.png" class="w-auto h-7 " alt=""></div>
-    
-    
-                        <button data-collapse-toggle="navbar-search" type="button"
-                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                            aria-controls="navbar-search" aria-expanded="false">
-                            <span class="sr-only">Open main menu</span>
-                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                viewBox="0 0 17 14">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M1 1h15M1 7h15M1 13h15" />
-                            </svg>
-                        </button>
+                        <input type="text" id="search-navbar"
+                            class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Search...">
+
                     </div>
-                    <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
-                        <div class="relative mt-3 md:hidden">
-                            <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                                <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                                </svg>
-                            </div>
-                            <input type="text" id="search-navbar"
-                                class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                                placeholder="Search...">
-                        </div>
-                        <ul
-                            class="flex flex-col font-bold p-4 md:p-0 mt-4 text-lg border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                            <li>
-                                <a href="/index.html"
-                                    class="block py-2 px-3 text-[#997063] bg-blue-700 rounded md:bg-transparent md:text-[#997063] md:p-0 md:dark:text-blue-500"
-                                    aria-current="page">Home</a>
-                            </li>
-                            <li>
-                                <a href="./delivery.html"
-                                    class="block py-2 px-3 text-[#997063] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#997063] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Delivery</a>
-                            </li>
-                            <li>
-                                <a href="./menu.html"
-                                    class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#997063] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-[#997063]">Menu</a>
-                            </li>
-                        </ul>
-                    </div>
+                    <div class="flex justify-center items-center pl-5"><img src="../images/heart.png" class="w-6 h-6 "
+                            alt=""><img src="../images/map.png" class="w-auto h-7 " alt=""></div>
+
+
+                    <button data-collapse-toggle="navbar-search" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-search" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
                 </div>
-            </nav>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
+
+                    <div class="relative mt-3 md:hidden">
+                        <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                            <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                            </svg>
+                        </div>
+                        <input type="text" id="search-navbar"
+                            class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="Search...">
+                    </div>
+                    <ul
+                        class="flex flex-col font-bold p-4 md:p-0 mt-4 text-lg border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <li>
+                            <a href="/index.html"
+                                class="block py-2 px-3 text-[#997063] bg-blue-700 rounded md:bg-transparent md:text-[#997063] md:p-0 md:dark:text-blue-500"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="/src/delivery.html"
+                                class="block py-2 px-3 text-[#997063] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#997063] md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Delivery</a>
+                        </li>
+                        <li>
+                            <a href="/src/menu.html"
+                                class="block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#997063] md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 text-[#997063]">Menu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <section class="pt-5 mb-4">
@@ -104,13 +107,13 @@
         <section>
             <div class="flex py-4 w-full relative mb-5 items-center bg-[#d9d9d9] justify-between">
                 <div class="md:max-lg:flex">
-                <img src="../images/image.png" class="w-[60px] left-6 absolute bottom-7" alt="">
-                <p class="pl-40 flex justify-center text-[24px] font-extrabold text-[#9d7569]">burger beef spicy</p>
+                    <img src="../images/image.png" class="w-[60px] left-6 absolute bottom-7" alt="">
+                    <p class="pl-40 flex justify-center text-[24px] font-extrabold text-[#9d7569]">burger beef spicy</p>
                 </div>
                 <div class="flex justify-center  items-center text-[18px] font-extrabold">
                     <span class="w-9 text-red-600 text-[30px] ">-</span>
                     <span class="w-9 text-[20px]">x1</span>
-                    <span class="w-9 text-green-500 text-[30px]" >+</span>
+                    <span class="w-9 text-green-500 text-[30px]">+</span>
                 </div>
                 <div class="absolute flex gap-8 right-0 text-[18px] font-extrabold">
                     <button class="py-2 px-4 text-[#9d7569] bg-[#fd9e9e] rounded-xl">Cancel</button>
@@ -120,14 +123,14 @@
             </div>
             <div class="flex py-4 w-full mb-5 relative items-center bg-[#d9d9d9] justify-between">
                 <div class="flex">
-                <img src="../images/image.png" class="w-[60px] left-6 absolute bottom-7" alt="">
-                <p class="pl-40 flex justify-center text-[24px] font-extrabold text-[#9d7569]">burger beef spicy</p>
+                    <img src="../images/image.png" class="w-[60px] left-6 absolute bottom-7" alt="">
+                    <p class="pl-40 flex justify-center text-[24px] font-extrabold text-[#9d7569]">burger beef spicy</p>
                 </div>
-           
+
                 <div class="flex  justify-center  items-center text-[18px] font-extrabold">
                     <span class="w-9 text-red-600 text-[30px] ">-</span>
                     <span class="w-9 text-[20px]">x1</span>
-                    <span class="w-9 text-green-500 text-[30px]" >+</span>
+                    <span class="w-9 text-green-500 text-[30px]">+</span>
                 </div>
                 <div class="absolute flex gap-8 right-0 text-[18px] font-extrabold">
                     <button class="py-2 px-4 text-[#9d7569] bg-[#fd9e9e] rounded-xl">Cancel</button>
@@ -137,13 +140,13 @@
             </div>
             <div class="flex py-4   mb-5 w-full relative items-center bg-[#d9d9d9] justify-between">
                 <div class="flex">
-                <img src="../images/image.png" class="w-[60px] left-6 absolute bottom-7" alt="">
-                <p class="pl-40 flex justify-center text-[24px] font-extrabold text-[#9d7569]">burger beef spicy</p>
+                    <img src="../images/image.png" class="w-[60px] left-6 absolute bottom-7" alt="">
+                    <p class="pl-40 flex justify-center text-[24px] font-extrabold text-[#9d7569]">burger beef spicy</p>
                 </div>
                 <div class="flex justify-center  items-center text-[18px] font-extrabold">
                     <span class="w-9 text-red-600 text-[30px] ">-</span>
                     <span class="w-9 text-[20px]">x1</span>
-                    <span class="w-9 text-green-500 text-[30px]" >+</span>
+                    <span class="w-9 text-green-500 text-[30px]">+</span>
                 </div>
                 <div class="absolute flex gap-8 right-0 text-[18px] font-extrabold">
                     <button class="py-2 px-4 text-[#9d7569] bg-[#fd9e9e] rounded-xl">Cancel</button>
@@ -152,7 +155,7 @@
                 <p></p>
             </div>
         </section>
-        <section> 
+        <section>
             <div class="text-[18px] font-extrabold text-[#9d7569] pt-10 pl-8">
                 <p>Your Address</p>
                 <p>Results for</p>
@@ -164,12 +167,12 @@
             </div>
             <hr class=" border-[1px] h-[1px]  mt-5 border-[#9d7569]">
             <div class="text-[18px] font-extrabold text-[#9d7569] pt-8 pl-8">
-                <p>DBurger beef :  x4<span class="pl-[190px]">9.99$</span></p>
-                <p>Burger chicken spicy:  x2<span class="pl-32">9.99$</span></p>
+                <p>DBurger beef : x4<span class="pl-[190px]">9.99$</span></p>
+                <p>Burger chicken spicy: x2<span class="pl-32">9.99$</span></p>
             </div>
             <hr class=" border-[1px] h-[1px]  mt-5 border-[#9d7569]">
             <div class="text-[18px] font-extrabold text-[#9d7569] pt-8 pl-8">
-                <p>Total price  : <span class="pl-60">20.94 $</span></p>
+                <p>Total price : <span class="pl-60">20.94 $</span></p>
             </div>
         </section>
         <section class="pb-[300px]">
@@ -196,7 +199,7 @@
             </section>
             <section>
                 <p class="text-1xl font-extrabold text-[#5a5858]">BurgerKing company Contact</p>
-                <div class="text-1xl pl-4 font-extrabold text-[#5f5c5c]"> 
+                <div class="text-1xl pl-4 font-extrabold text-[#5f5c5c]">
                     <p>BurgerKing1</p>
                     <p> BurgerKingKh</p>
                     <p>BurgerKing</p>
@@ -204,9 +207,9 @@
                 </div>
             </section>
             <section>
-                    <p class="text-1xl font-extrabold text-[#5a5858]">About User</p>
-                    <div >
-                        <div class="pl-4 text-1xl font-extrabold text-[#5f5c5c]">
+                <p class="text-1xl font-extrabold text-[#5a5858]">About User</p>
+                <div>
+                    <div class="pl-4 text-1xl font-extrabold text-[#5f5c5c]">
                         <p>Report</p>
                         <p>Help</p>
                         <p>Contact by</p>
@@ -223,4 +226,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 </body>
+
 </html>
